@@ -1,0 +1,47 @@
+{
+	"name": "AzureSqlTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Id",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "SepalLengthCm",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "SepalWidthCm",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PetalLengthCm",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PetalWidthCm",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Species",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "IrisDataset"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

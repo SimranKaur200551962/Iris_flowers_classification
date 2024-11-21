@@ -1,0 +1,9 @@
+{
+	"name": "dfiris",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6a2ea956-ed2f-4a00-8fca-9330372b724b",
+		"tenantId": "da9a94b6-4681-49bc-bd7c-bab9eac0ad3c"
+	}
+}
